@@ -8,238 +8,214 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <!-- Sektion: Bild + kurzer Text -->
-    <section class="first-section">
-      <div class="hero-container">
-        <img class="herro-img" src="./assets/items/hero.png" alt="Planeten-Bild" />
-        <p class="headline">Planetarium Fritzlar Wir entführen Sie ins Weltall</h2>
-  
-        <div class="text-box">
-          <p class="first">
-            Die Sternfreunde Fritzlar sind in die Gießener Straße 77 in Fritzlar umgezogen. Besuchen Sie uns in unserem hochmodernen,
-            nagelneuen Planetarium.
-          </p>
-  
-          <p class="second">
-            Auf unserer sechs Meter großen Kuppel präsentieren wir Ihnen ab sofort mithilfe unserer 360-Grad-Fulldome-Technik den Weltraum,
-            wie Sie ihn noch nicht erlebt haben. Reisen Sie mit uns zum Mond und zu fremden Planeten, wandeln Sie durch die Milchstraße und
-            gehen Sie mit uns den großen Fragen nach: Gibt es unbekanntes Leben im Universum?
-          </p>
+    <div class="reponsive-container">
+      <section class="first-section">
+        <div class="hero-container">
+          <img class="herro-img" src="./assets/items/hero.png" alt="Planeten-Bild" />
+          <p class="headline">Planetarium Fritzlar Wir entführen Sie ins Weltall</h2>
+    
+          <div class="text-box">
+            <p class="first">
+              Die Sternfreunde Fritzlar sind in die Gießener Straße 77 in Fritzlar umgezogen. Besuchen Sie uns in unserem hochmodernen,
+              nagelneuen Planetarium.
+            </p>
+    
+            <p class="second">
+              Auf unserer sechs Meter großen Kuppel präsentieren wir Ihnen ab sofort mithilfe unserer 360-Grad-Fulldome-Technik den Weltraum,
+              wie Sie ihn noch nicht erlebt haben. Reisen Sie mit uns zum Mond und zu fremden Planeten, wandeln Sie durch die Milchstraße und
+              gehen Sie mit uns den großen Fragen nach: Gibt es unbekanntes Leben im Universum?
+            </p>
+          </div>
+    
+          <div class="footer_text-box">
+            <p>6-Meter-Kuppel</p>
+            <p>360-Grad-Fulldome-Technik</p>
+            <p>Neue Location</p>
+          </div>
         </div>
-  
-        <div class="footer_text-box">
-          <p>6-Meter-Kuppel</p>
-          <p>360-Grad-Fulldome-Technik</p>
-          <p>Neue Location</p>
+      </section>
+
+      <section class="second-section">
+        <div class="iframe-container">
+          <video controls>
+            <source src="/assets/video/first.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
-      </div>
-    </section>
+        <div class="tech-container">
+          <div class="text-box">
+            <p class="badge"></p>
+            <p class="headline">Technische Ausstattung</p>
+            <p class="descr">
+              Das Planetarium Fritzlar verfügt über neueste Technik und ein computergesteuertes Projektionssystem, das Sterne in erstaunlicher
+              Schärfe zeigen und kosmische Weiten ganz nah heranholen kann. Wir bieten 30 Plätze unter unserer sechs Meter großen Kuppel.
+            </p>
+          </div>
+        </div>
 
-    <!-- Sektion: Weiteres Bild + kurzer Text -->
-    <section class="second-section">
-      <div class="iframe-container">
-        <!-- <iframe
-          width="100%"
-          height="504"
-          src="https://www.youtube-nocookie.com/embed/Y9-ryrlpxf4?si=LpjbLrhwC5fMf2SO"
-          aria-label="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe> -->
+        <div class="back-img"></div>
+      </section>
 
-        <!-- height="504" width="100%"  -->
-        <img 
-        src="./assets/back/kino.png" alt="">
-      </div>
-      <div class="tech-container">
-        <div class="text-box">
-          <p class="badge"></p>
-          <p class="headline">Technische Ausstattung</p>
+      <section class="third-section">
+
+        <div class="header">
+          <div class="header-box">
+            <h1 class="headline">Unser Program</h1>
+          </div>
+          <img src="./assets/back/header.png" alt="">
+        </div>
+
+        <div class="card card-1">
+          <div class="img-container">
+            <img src="./assets/items/card-1.png" alt="Icon" />
+          </div>
+          <p class="head">Expedition in die Milchstraße</h3>
           <p class="descr">
-            Das Planetarium Fritzlar verfügt über neueste Technik und ein computergesteuertes Projektionssystem, das Sterne in erstaunlicher
-            Schärfe zeigen und kosmische Weiten ganz nah heranholen kann. Wir bieten 30 Plätze unter unserer sechs Meter großen Kuppel.
+            Häufig ist das leuchtend helle Band der Milchstraße sogar mit dem bloßen Auge zu erkennen: Was wir da sehen, ist unsere eigene
+            Galaxie. In diesem Vortrag zoomen wir so nah heran, dass sich Milliarden Einzelsterne zeigen, aus der die Milchstraße besteht.
+          </p>
+          <p class="footer-text">Samstag, 15 Uhr</p>
+        </div>
+
+        <div class="card card-2">
+          <div class="img-container">
+            <img src="./assets/items/card-2.png" alt="Icon" />
+          </div>
+          <p class="head">Schwarze Löcher</h3>
+          <p class="descr">
+            Was einem Schwarzen Loch zu nahe kommt, verschwindet für immer. Sogar Licht! In diesem Vortrag wagen wir uns dennoch ganz nah an die größten Geheimnisse des Weltalls heran.
+          </p>
+          <p class="footer-text">Sonntags, 15 Uhr</p>
+        </div>
+
+        <div class="card card-3">
+          <div class="img-container">
+            <img src="./assets/items/card-3.png" alt="Icon" />
+          </div>
+          <p class="head">Auf der Suche nach Leben</h3>
+          <p class="descr">
+            Sind wir allein? Generationen von Wissenschaftlern stellten sich bereits diese Frage. In diesem Vortrag besuchen wir nicht nur den Mars, auf dem bereits Wasser entdeckt wurde, sondern auch Meteoriten, die als Transportmittel für biochemische Moleküle dienen können.
           </p>
         </div>
-      </div>
 
-      <div class="back-img"></div>
-    </section>
+      </section>
 
-    <!-- Sektion: Mehrere "Karten" oder Bereiche -->
-    <section class="third-section">
-
-      <div class="header">
-         <div class="header-box">
-           <h1 class="headline">Unser Program</h1>
-         </div>
-        <img src="./assets/back/header.png" alt="">
-      </div>
-
-      <div class="card card-1">
-        <div class="img-container">
-          <img src="./assets/items/card-1.png" alt="Icon" />
-        </div>
-        <p class="head">Expedition in die Milchstraße</h3>
-        <p class="descr">
-          Häufig ist das leuchtend helle Band der Milchstraße sogar mit dem bloßen Auge zu erkennen: Was wir da sehen, ist unsere eigene
-          Galaxie. In diesem Vortrag zoomen wir so nah heran, dass sich Milliarden Einzelsterne zeigen, aus der die Milchstraße besteht.
-        </p>
-        <p class="footer-text">Samstag, 15 Uhr</p>
-      </div>
-
-      <div class="card card-2">
-        <div class="img-container">
-          <img src="./assets/items/card-2.png" alt="Icon" />
-        </div>
-        <p class="head">Schwarze Löcher</h3>
-        <p class="descr">
-          Was einem Schwarzen Loch zu nahe kommt, verschwindet für immer. Sogar Licht! In diesem Vortrag wagen wir uns dennoch ganz nah an die größten Geheimnisse des Weltalls heran.
-        </p>
-        <p class="footer-text">Sonntags, 15 Uhr</p>
-      </div>
-
-      <div class="card card-3">
-        <div class="img-container">
-          <img src="./assets/items/card-3.png" alt="Icon" />
-        </div>
-        <p class="head">Auf der Suche nach Leben</h3>
-        <p class="descr">
-          Sind wir allein? Generationen von Wissenschaftlern stellten sich bereits diese Frage. In diesem Vortrag besuchen wir nicht nur den Mars, auf dem bereits Wasser entdeckt wurde, sondern auch Meteoriten, die als Transportmittel für biochemische Moleküle dienen können.
-        </p>
-        <p class="footer-text">Samstag, 15 Uhr</p>
-      </div>
-
-    </section>
-
-    <!-- Sektion: Besuchsinfos mit Bild -->
-    <section class="fourth-section">
-      <p class="headline">Ihr Besuch</p>
-      <div class="col">
-        <div class="head">
-          <img src="./assets/icons/address.svg" alt="Icon">
-          <span>Adresse</span>
-        </div>
-          <p>Gießener Straße 77</p>
-          <p>34560 Fritzlar</p>
-      </div>
-      <div class="col">
-        <div class="head">
-          <img src="./assets/icons/mail.svg" alt="Icon">
-          <span>E-Mail</span>
-        </div>
-          <p>info@planetarium-fritzlar.de</p>
-      </div>
-      <div class="col">
-        <div class="head">
-          <img src="./assets/icons/phone.svg" alt="Icon">
-          <span>Fon</span>
-        </div>
-          <p>05622 9118896660</p>
-      </div>
-
-      <div class="iframe-container">
-        <!-- <iframe
-          width="100%"
-          height="504"
-          src="https://www.youtube-nocookie.com/embed/Y9-ryrlpxf4?si=LpjbLrhwC5fMf2SO"
-          aria-label="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe> -->
-
-        <!-- height="504" width="100%"  -->
-        <img 
-        src="./assets/back/stars.png" alt="">
-      </div>
-    </section>
-
-    <section class="fifth-section">
-      <p class="badge"></p>
-      <p class="headline">Eintritt & Öffnungszeiten</p>
-
-      <div class="card">
-        <p class="head">Eintritt</p>
-          <div class="cols">
-            <div class="first">
-              <p class="text-sm">Erwachsene:</p>  
-              <p class="text-sm">Ermäßigt:</p>  
-              <p class="text-sm">Kinder bis 18 Jahre:</p>  
-            </div>
-            <div class="second">
-              <p class="text">6 Euro</p>
-              <p class="text">4 Euro</p>
-              <p class="text">2 Euro</p>
-            </div>
+      <section class="fourth-section">
+        <p class="headline">Ihr Besuch</p>
+        <div class="col">
+          <div class="head">
+            <img src="./assets/icons/address.svg" alt="Icon">
+            <span>Adresse</span>
           </div>
-      </div>
-
-      <div class="card">
-        <p class="head">Öffnungszeiten</p>
-          <div class="cols">
-            <div class="first">
-              <p class="text-sm">Mittwoch - Freitags:</p>  
-              <p class="text-sm">Samstag - Sonntag:</p>  
-            </div>
-            <div class="second">
-              <p class="text">12 bis 17 Uhr</p>
-              <p class="text">12 bis 20 Uhr</p>
-            </div>
-          </div>
-      </div>
-
-    </section>
-
-    <section class="sixth-section">
-
-
-      <div class="card">
-
-        <div class="text-box">
-          <p>Zögern Sie nicht, uns bei Fragen oder Anliegen </br>zu kontaktieren – wir sind jederzeit für Sie da!</p>
+            <p>Gießener Straße 77</p>
+            <p>34560 Fritzlar</p>
         </div>
-          <div class="cols">
-            <div class="col">
+        <div class="col">
+          <div class="head">
+            <img src="./assets/icons/mail.svg" alt="Icon">
+            <span>E-Mail</span>
+          </div>
+            <p>info@planetarium-fritzlar.de</p>
+        </div>
+        <div class="col">
+          <div class="head">
+            <img src="./assets/icons/phone.svg" alt="Icon">
+            <span>Fon</span>
+          </div>
+            <p>05622 9118896660</p>
+        </div>
+
+        <div class="iframe-container">
+
+          <video controls>
+            <source src="/assets/video/second.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
+      <section class="fifth-section">
+        <p class="badge"></p>
+        <p class="headline">Eintritt & Öffnungszeiten</p>
+
+        <div class="card">
+          <p class="head">Eintritt</p>
+            <div class="cols">
               <div class="first">
-                <img width="12" height="12" src="./assets/icons/phone.svg" alt="Icon">
-                <p class="text">Fon:</p>  
+                <p class="text-sm">Erwachsene:</p>  
+                <p class="text-sm">Ermäßigt:</p>  
+                <p class="text-sm">Kinder bis 18 Jahre:</p>  
               </div>
               <div class="second">
-                <p class="text">
-                  05622 9118896660</p>
+                <p class="text">6 Euro</p>
+                <p class="text">4 Euro</p>
+                <p class="text">2 Euro</p>
               </div>
             </div>
+        </div>
 
-            <div class="col">
+        <div class="card">
+          <p class="head">Öffnungszeiten</p>
+            <div class="cols">
               <div class="first">
-                <img width="12" height="12" src="./assets/icons/mail.svg" alt="Icon">
-                <p class="text">E-Mail:</p>  
+                <p class="text-sm">Mittwoch - Freitags:</p>  
+                <p class="text-sm">Samstag - Sonntag:</p>  
               </div>
               <div class="second">
-                <p class="text">
-                  info@planetarium-fritzlar.de</p>
+                <p class="text">12 bis 17 Uhr</p>
+                <p class="text">12 bis 20 Uhr</p>
               </div>
             </div>
+        </div>
 
+      </section>
+
+      <section class="sixth-section">
+        <div class="card">
+
+          <div class="text-box">
+            <p>Zögern Sie nicht, uns bei Fragen oder Anliegen </br>zu kontaktieren – wir sind jederzeit für Sie da!</p>
           </div>
-      </div>
-    </section>
+            <div class="cols">
+              <div class="col">
+                <div class="first">
+                  <img width="12" height="12" src="./assets/icons/phone.svg" alt="Icon">
+                  <p class="text">Fon:</p>  
+                </div>
+                <div class="second">
+                  <p class="text">
+                    05622 9118896660</p>
+                </div>
+              </div>
 
-    <footer>
-      <div class="container">
-        <div class="icons">
-          <div class="item"><img src="./assets/icons/facebook.png" alt=""></div>
-          <div class="item"><img src="./assets/icons/x.png" alt=""></div>
-          <div class="item"><img src="./assets/icons/icon.png" alt=""></div>
+              <div class="col">
+                <div class="first">
+                  <img width="12" height="12" src="./assets/icons/mail.svg" alt="Icon">
+                  <p class="text">E-Mail:</p>  
+                </div>
+                <div class="second">
+                  <p class="text">
+                    info@planetarium-fritzlar.de</p>
+                </div>
+              </div>
+
+            </div>
         </div>
-        <div class="info">
-          <p class="text">Impressum</p>
-          <p class="text">Datenschutz</p>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="icons">
+            <div class="item"><img src="./assets/icons/facebook.png" alt=""></div>
+            <div class="item"><img src="./assets/icons/x.png" alt=""></div>
+            <div class="item"><img src="./assets/icons/icon.png" alt=""></div>
+          </div>
+          <div class="info">
+            <p class="text">Impressum</p>
+            <p class="text">Datenschutz</p>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>

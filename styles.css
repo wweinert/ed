@@ -11,7 +11,16 @@ body {
   color: #fff;
 }
 
-/* Sektion: Feature (Bild + Text) */
+.reponsive-container {
+  margin: 0 auto;
+  background-color: #1f3065;
+}
+
+.iframe-container video {
+  height: 504px;
+  width: 100%;
+}
+
 .first-section {
   background: url("./assets/back/back1.png") no-repeat center/cover; /* Hintergrundbild */
   display: flex;
@@ -19,8 +28,8 @@ body {
   flex-direction: column;
   height: 1357px;
   padding: 40px 20px;
-  /* align-items: center; */
-  /* justify-content: center; */
+  margin: 0 auto;
+  max-width: 576px;
 }
 
 .first-section .hero-container {
@@ -78,15 +87,15 @@ body {
   margin-top: 30px;
   padding: 0 10px;
 }
-/* Umkehrung der Reihenfolge für Abwechslung */
-.first-section.reverse {
-  flex-direction: row-reverse;
+.first-section,
+.second-section {
+  margin: 0 auto;
+  max-width: 576px;
 }
 
 .second-section .iframe-container {
   background: url("./assets/back/iframe.png") no-repeat center/cover; /* Hintergrundbild */
   padding: 40px 36px;
-  /* height: 448px; */
 }
 
 .second-section .tech-container {
@@ -106,14 +115,12 @@ body {
   font-size: 18px;
 }
 .badge {
-  height: 1px;
-  width: 40%;
+  height: 2px;
   background-color: #14f1d9;
 }
-.badge2 {
-  height: 1px;
+
+.second-section .badge {
   width: 50%;
-  background-color: #14f1d9;
 }
 .second-section .back-img {
   background: url("./assets/back/back-img.png") no-repeat center/cover; /* Hintergrundbild */
@@ -127,7 +134,8 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 40px 0;
-  /* gap: 20px; */
+  margin: 0 auto;
+  max-width: 576px;
 }
 .third-section .header .header-box {
   position: absolute;
@@ -145,7 +153,6 @@ body {
 }
 
 .third-section .header {
-  /* background: url("./assets/back/header.png") no-repeat center/cover; Hintergrundbild */
   height: 123px;
   position: relative;
   margin-bottom: 40px;
@@ -157,7 +164,6 @@ body {
 }
 
 .third-section .header img {
-  /* background: url("./assets/back/header.png") no-repeat center/cover; Hintergrundbild */
   position: absolute;
 }
 
@@ -168,15 +174,23 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.third-section .card-1 {
+  height: 880px;
+  margin-bottom: 60px;
+}
+.third-section .card-2 {
+  height: 820px;
+}
+
 .third-section .card .img-container {
   display: flex;
   justify-content: center;
 }
 .third-section .card-1 .img-container {
-  padding: 60px 0 40px;
+  padding: 66px 7px 40px 0;
 }
 .third-section .card-2 .img-container {
-  padding: 60px 0 40px;
+  padding: 60px 15px 40px 0;
 }
 .third-section .card-3 .img-container {
   padding: 90px 0 40px;
@@ -206,22 +220,13 @@ body {
   border-bottom: 1px solid #14f1d9;
   text-transform: uppercase;
 }
-/* .third-section .card-2 .footer-text {
-  font-size: 22px;
-  text-align: center;
-  line-height: 2;
-  color: #14f1d9;
-  border-bottom: 1px solid #14f1d9;
-} */
-/* .third-section .card-1 {
-} */
 
 .fourth-section {
   padding: 40px 20px;
   text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
   background-color: #091642;
+  margin: 0 auto;
+  max-width: 576px;
 }
 
 .fourth-section .headline {
@@ -253,15 +258,18 @@ body {
 
 .fifth-section {
   text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
   background-color: #091642;
   padding: 0 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+  max-width: 576px;
 }
 
+.fifth-section .badge {
+  width: 10%;
+}
 .fifth-section .headline {
   font-size: 24px;
   margin: 20px 0;
@@ -288,19 +296,21 @@ body {
 }
 .fifth-section .card .cols .first .text-sm {
   text-align: start;
+  font-size: 18px;
 }
 .fifth-section .card .cols .second {
   margin: 0;
 }
 .fifth-section .card .cols .second .text {
   font-weight: 600;
+  font-size: 18px;
 }
 
 .sixth-section {
   background: url("./assets/back/sixth.png") no-repeat center/cover; /* Hintergrundbild */
   padding: 70px 40px;
   text-align: center;
-  max-width: 600px;
+  max-width: 576px;
   margin: 0 auto;
   height: 297px;
 }
@@ -357,6 +367,8 @@ footer {
   background-color: #091642;
   text-align: center;
   padding: 20px;
+  margin: 0 auto;
+  max-width: 576px;
 }
 footer .container {
   display: flex;
@@ -374,6 +386,7 @@ footer .container .info {
   justify-content: space-between;
   width: 45%;
   padding: 0px 25px;
+  align-items: center;
 }
 
 footer .container .info .text {
